@@ -1,0 +1,4862 @@
+{
+  "meta": {
+    "name": "pictonarIA",
+    "version": "1.0.0",
+    "total": 600,
+    "source": "pictionary_600_tarjetas.md"
+  },
+  "decks": {
+    "infantil": {
+      "label": "Infantil",
+      "emoji": "🟢",
+      "color": "#2e9e4f",
+      "count": 200
+    },
+    "adulto": {
+      "label": "Adulto",
+      "emoji": "🔵",
+      "color": "#2f6fd6",
+      "count": 100
+    },
+    "mixto": {
+      "label": "Mixto / Familiar",
+      "emoji": "🟡",
+      "color": "#f2b800",
+      "count": 100
+    },
+    "chile": {
+      "label": "Chile",
+      "emoji": "🇨🇱",
+      "icon": "flag-cl",
+      "color": "#d52b1e",
+      "count": 100
+    },
+    "desafio": {
+      "label": "Desafío / Fiesta",
+      "emoji": "🟣",
+      "color": "#7b3fbf",
+      "count": 100
+    }
+  },
+  "cards": [
+    {
+      "id": "I001",
+      "text": "Perro",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I002",
+      "text": "Gato",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I003",
+      "text": "Elefante",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I004",
+      "text": "León",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I005",
+      "text": "Tigre",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I006",
+      "text": "Jirafa",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I007",
+      "text": "Mono",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I008",
+      "text": "Cerdo",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I009",
+      "text": "Vaca",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I010",
+      "text": "Caballo",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I011",
+      "text": "Oveja",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I012",
+      "text": "Gallina",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I013",
+      "text": "Pato",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I014",
+      "text": "Conejo",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I015",
+      "text": "Tortuga",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I016",
+      "text": "Cocodrilo",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Animales"
+    },
+    {
+      "id": "I017",
+      "text": "Serpiente",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I018",
+      "text": "Tiburón",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Animales"
+    },
+    {
+      "id": "I019",
+      "text": "Ballena",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Animales"
+    },
+    {
+      "id": "I020",
+      "text": "Pulpo",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Animales"
+    },
+    {
+      "id": "I021",
+      "text": "Pingüino",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I022",
+      "text": "Delfín",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I023",
+      "text": "Canguro",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Animales"
+    },
+    {
+      "id": "I024",
+      "text": "Rana",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I025",
+      "text": "Mariposa",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I026",
+      "text": "Abeja",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I027",
+      "text": "Araña",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I028",
+      "text": "Hormiga",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I029",
+      "text": "Caracol",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I030",
+      "text": "Dinosaurio",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I031",
+      "text": "Oso",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I032",
+      "text": "Zorro",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I033",
+      "text": "Lobo",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I034",
+      "text": "Ardilla",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I035",
+      "text": "Búho",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I036",
+      "text": "Águila",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Animales"
+    },
+    {
+      "id": "I037",
+      "text": "Flamenco",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Animales"
+    },
+    {
+      "id": "I038",
+      "text": "Cebra",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I039",
+      "text": "Rinoceronte",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Animales"
+    },
+    {
+      "id": "I040",
+      "text": "Hipopótamo",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Animales"
+    },
+    {
+      "id": "I041",
+      "text": "Camello",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Animales"
+    },
+    {
+      "id": "I042",
+      "text": "Koala",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I043",
+      "text": "Panda",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I044",
+      "text": "Gorila",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Animales"
+    },
+    {
+      "id": "I045",
+      "text": "Cangrejo",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I046",
+      "text": "Estrella de mar",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I047",
+      "text": "Medusa",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Animales"
+    },
+    {
+      "id": "I048",
+      "text": "Caballito de mar",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Animales"
+    },
+    {
+      "id": "I049",
+      "text": "Pingüino bebé",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Animales"
+    },
+    {
+      "id": "I050",
+      "text": "Pez",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Animales"
+    },
+    {
+      "id": "I051",
+      "text": "Auto",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Transporte"
+    },
+    {
+      "id": "I052",
+      "text": "Bus",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Transporte"
+    },
+    {
+      "id": "I053",
+      "text": "Bicicleta",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Transporte"
+    },
+    {
+      "id": "I054",
+      "text": "Motocicleta",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Transporte"
+    },
+    {
+      "id": "I055",
+      "text": "Avión",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Transporte"
+    },
+    {
+      "id": "I056",
+      "text": "Helicóptero",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Transporte"
+    },
+    {
+      "id": "I057",
+      "text": "Barco",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Transporte"
+    },
+    {
+      "id": "I058",
+      "text": "Tren",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Transporte"
+    },
+    {
+      "id": "I059",
+      "text": "Submarino",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Transporte"
+    },
+    {
+      "id": "I060",
+      "text": "Camión",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Transporte"
+    },
+    {
+      "id": "I061",
+      "text": "Taxi",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Transporte"
+    },
+    {
+      "id": "I062",
+      "text": "Ambulancia",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Transporte"
+    },
+    {
+      "id": "I063",
+      "text": "Camión de bomberos",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Transporte"
+    },
+    {
+      "id": "I064",
+      "text": "Tractor",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Transporte"
+    },
+    {
+      "id": "I065",
+      "text": "Cohete",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Transporte"
+    },
+    {
+      "id": "I066",
+      "text": "Patineta",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Transporte"
+    },
+    {
+      "id": "I067",
+      "text": "Patines",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Transporte"
+    },
+    {
+      "id": "I068",
+      "text": "Metro",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Transporte"
+    },
+    {
+      "id": "I069",
+      "text": "Tranvía",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Transporte"
+    },
+    {
+      "id": "I070",
+      "text": "Globo aerostático",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Transporte"
+    },
+    {
+      "id": "I071",
+      "text": "Pizza",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Comida"
+    },
+    {
+      "id": "I072",
+      "text": "Hamburguesa",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Comida"
+    },
+    {
+      "id": "I073",
+      "text": "Helado",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Comida"
+    },
+    {
+      "id": "I074",
+      "text": "Manzana",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Comida"
+    },
+    {
+      "id": "I075",
+      "text": "Plátano",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Comida"
+    },
+    {
+      "id": "I076",
+      "text": "Sandía",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Comida"
+    },
+    {
+      "id": "I077",
+      "text": "Torta",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Comida"
+    },
+    {
+      "id": "I078",
+      "text": "Chocolate",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Comida"
+    },
+    {
+      "id": "I079",
+      "text": "Palomitas de maíz",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Comida"
+    },
+    {
+      "id": "I080",
+      "text": "Hot dog",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Comida"
+    },
+    {
+      "id": "I081",
+      "text": "Papas fritas",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Comida"
+    },
+    {
+      "id": "I082",
+      "text": "Huevo",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Comida"
+    },
+    {
+      "id": "I083",
+      "text": "Panqueques",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Comida"
+    },
+    {
+      "id": "I084",
+      "text": "Espagueti",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Comida"
+    },
+    {
+      "id": "I085",
+      "text": "Sándwich",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Comida"
+    },
+    {
+      "id": "I086",
+      "text": "Donut",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Comida"
+    },
+    {
+      "id": "I087",
+      "text": "Galleta",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Comida"
+    },
+    {
+      "id": "I088",
+      "text": "Manzana acaramelada",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Comida"
+    },
+    {
+      "id": "I089",
+      "text": "Algodón de azúcar",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Comida"
+    },
+    {
+      "id": "I090",
+      "text": "Cereal",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Comida"
+    },
+    {
+      "id": "I091",
+      "text": "Casa",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I092",
+      "text": "Escuela",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I093",
+      "text": "Hospital",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I094",
+      "text": "Castillo",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I095",
+      "text": "Parque",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I096",
+      "text": "Playa",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I097",
+      "text": "Piscina",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I098",
+      "text": "Montaña",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I099",
+      "text": "Árbol",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I100",
+      "text": "Flor",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I101",
+      "text": "Paraguas",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I102",
+      "text": "Mochila",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I103",
+      "text": "Pelota",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I104",
+      "text": "Libro",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I105",
+      "text": "Computador",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I106",
+      "text": "Teléfono",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I107",
+      "text": "Televisión",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I108",
+      "text": "Reloj",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I109",
+      "text": "Cámara",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Objetos y lugares"
+    },
+    {
+      "id": "I110",
+      "text": "Bicicleta",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Objetos y lugares",
+      "duplicateOf": "I053"
+    },
+    {
+      "id": "I111",
+      "text": "Bombero",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I112",
+      "text": "Policía",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I113",
+      "text": "Doctor",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I114",
+      "text": "Enfermera",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I115",
+      "text": "Profesor",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I116",
+      "text": "Cocinero",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I117",
+      "text": "Astronauta",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I118",
+      "text": "Pirata",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I119",
+      "text": "Rey",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I120",
+      "text": "Reina",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I121",
+      "text": "Superhéroe",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I122",
+      "text": "Mago",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I123",
+      "text": "Payaso",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I124",
+      "text": "Detective",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I125",
+      "text": "Futbolista",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I126",
+      "text": "Bailarín",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I127",
+      "text": "Cantante",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I128",
+      "text": "Pintor",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I129",
+      "text": "Granjero",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I130",
+      "text": "Piloto",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Profesiones y personajes"
+    },
+    {
+      "id": "I131",
+      "text": "Sol",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I132",
+      "text": "Luna",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I133",
+      "text": "Estrella",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I134",
+      "text": "Nube",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I135",
+      "text": "Lluvia",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I136",
+      "text": "Arcoíris",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I137",
+      "text": "Volcán",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I138",
+      "text": "Cascada",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I139",
+      "text": "Isla",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I140",
+      "text": "Cueva",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I141",
+      "text": "Tesoro",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I142",
+      "text": "Dragón",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I143",
+      "text": "Unicornio",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I144",
+      "text": "Hada",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I145",
+      "text": "Sirena",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I146",
+      "text": "Fantasma",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I147",
+      "text": "Bruja",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I148",
+      "text": "Monstruo",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I149",
+      "text": "Gigante",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I150",
+      "text": "Extraterrestre",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Naturaleza y fantasía"
+    },
+    {
+      "id": "I151",
+      "text": "Fútbol",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I152",
+      "text": "Básquetbol",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I153",
+      "text": "Tenis",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I154",
+      "text": "Natación",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I155",
+      "text": "Correr",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I156",
+      "text": "Saltar",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I157",
+      "text": "Bailar",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I158",
+      "text": "Cantar",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I159",
+      "text": "Dibujar",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I160",
+      "text": "Leer",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I161",
+      "text": "Dormir",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I162",
+      "text": "Cocinar",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I163",
+      "text": "Pescar",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I164",
+      "text": "Acampar",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I165",
+      "text": "Volar una cometa",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I166",
+      "text": "Andar en bicicleta",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I167",
+      "text": "Jugar videojuegos",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I168",
+      "text": "Construir un castillo de arena",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I169",
+      "text": "Hacer un muñeco de nieve",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I170",
+      "text": "Jugar escondidas",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Juegos y actividades"
+    },
+    {
+      "id": "I171",
+      "text": "Cumpleaños",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I172",
+      "text": "Regalo",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I173",
+      "text": "Fiesta",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I174",
+      "text": "Vacaciones",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I175",
+      "text": "Picnic",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I176",
+      "text": "Recreo",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I177",
+      "text": "Viaje",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I178",
+      "text": "Dormir en carpa",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I179",
+      "text": "Ir al zoológico",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I180",
+      "text": "Ir al cine",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I181",
+      "text": "Hacer una foto",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I182",
+      "text": "Abrir un regalo",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I183",
+      "text": "Soplar las velas",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I184",
+      "text": "Comer helado",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I185",
+      "text": "Jugar en el parque",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I186",
+      "text": "Perder un juguete",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I187",
+      "text": "Buscar un tesoro",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I188",
+      "text": "Construir con bloques",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I189",
+      "text": "Volar una cometa",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Familia y situaciones",
+      "duplicateOf": "I165"
+    },
+    {
+      "id": "I190",
+      "text": "Jugar con una mascota",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I191",
+      "text": "Hacer burbujas",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I192",
+      "text": "Saltar un charco",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I193",
+      "text": "Hacer una guerra de almohadas",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I194",
+      "text": "Hacer un muñeco de nieve",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Familia y situaciones",
+      "duplicateOf": "I169"
+    },
+    {
+      "id": "I195",
+      "text": "Disfrazarse",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I196",
+      "text": "Usar una capa",
+      "deck": "infantil",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I197",
+      "text": "Contar un cuento",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I198",
+      "text": "Encontrar un tesoro",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I199",
+      "text": "Montar una tienda de campaña",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "I200",
+      "text": "Construir un fuerte",
+      "deck": "infantil",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Familia y situaciones"
+    },
+    {
+      "id": "A001",
+      "text": "Reunión de trabajo",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A002",
+      "text": "Llegar tarde al trabajo",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A003",
+      "text": "Trabajar desde casa",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A004",
+      "text": "Café de la mañana",
+      "deck": "adulto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "A005",
+      "text": "Lunes por la mañana",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A006",
+      "text": "Viernes por la tarde",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A007",
+      "text": "Tráfico",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A008",
+      "text": "Buscar estacionamiento",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A009",
+      "text": "Hacer fila",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A010",
+      "text": "Pagar una cuenta",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A011",
+      "text": "Ir al banco",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A012",
+      "text": "Ir al supermercado",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A013",
+      "text": "Cocinar para invitados",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A014",
+      "text": "Limpiar la casa",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A015",
+      "text": "Lavar la ropa",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A016",
+      "text": "Reparar algo en casa",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A017",
+      "text": "Cambiar una ampolleta",
+      "deck": "adulto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "A018",
+      "text": "Quedarse sin internet",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A019",
+      "text": "Batería del celular agotada",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A020",
+      "text": "Buscar el control remoto",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A021",
+      "text": "Entrevista de trabajo",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A022",
+      "text": "Jefe enojado",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A023",
+      "text": "Compañero de trabajo",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A024",
+      "text": "Oficina",
+      "deck": "adulto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "A025",
+      "text": "Presentación",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A026",
+      "text": "Videoconferencia",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A027",
+      "text": "Correo electrónico",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A028",
+      "text": "Computador lento",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A029",
+      "text": "Contraseña olvidada",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A030",
+      "text": "Impresora sin tinta",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A031",
+      "text": "Reunión que dura demasiado",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A032",
+      "text": "Trabajar horas extras",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A033",
+      "text": "Vacaciones",
+      "deck": "adulto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null,
+      "duplicateOf": "I174"
+    },
+    {
+      "id": "A034",
+      "text": "Jefe llamando",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A035",
+      "text": "Error en el computador",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A036",
+      "text": "Primera cita",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A037",
+      "text": "Cena romántica",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A038",
+      "text": "Boda",
+      "deck": "adulto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "A039",
+      "text": "Aniversario",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A040",
+      "text": "Discusión de pareja",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A041",
+      "text": "Pedir perdón",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A042",
+      "text": "Regalar flores",
+      "deck": "adulto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "A043",
+      "text": "Romper una relación",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A044",
+      "text": "Celos",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A045",
+      "text": "Amor a primera vista",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A046",
+      "text": "Resaca",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A047",
+      "text": "Quedarse dormido en una reunión",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A048",
+      "text": "Fingir que entiendes algo",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A049",
+      "text": "Olvidar un cumpleaños",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A050",
+      "text": "Saludar a la persona equivocada",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A051",
+      "text": "Hablar solo",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A052",
+      "text": "Cantar en la ducha",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A053",
+      "text": "Bailar cuando nadie mira",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A054",
+      "text": "Comer a escondidas",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A055",
+      "text": "Revisar el refrigerador sin hambre",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A056",
+      "text": "Estrés",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A057",
+      "text": "Paciencia",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A058",
+      "text": "Impaciencia",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A059",
+      "text": "Confusión",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A060",
+      "text": "Sorpresa",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A061",
+      "text": "Vergüenza",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A062",
+      "text": "Nostalgia",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A063",
+      "text": "Libertad",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A064",
+      "text": "Suerte",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A065",
+      "text": "Mala suerte",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A066",
+      "text": "Secreto",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A067",
+      "text": "Mentira",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A068",
+      "text": "Problema",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A069",
+      "text": "Solución",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A070",
+      "text": "Esperanza",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A071",
+      "text": "Película de terror",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A072",
+      "text": "Película romántica",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A073",
+      "text": "Película de acción",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A074",
+      "text": "Superhéroe",
+      "deck": "adulto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null,
+      "duplicateOf": "I121"
+    },
+    {
+      "id": "A075",
+      "text": "Villano",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A076",
+      "text": "Cantante famoso",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A077",
+      "text": "Concierto",
+      "deck": "adulto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "A078",
+      "text": "Karaoke",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A079",
+      "text": "Videojuego",
+      "deck": "adulto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "A080",
+      "text": "Maratón de series",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A081",
+      "text": "Viajar al extranjero",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A082",
+      "text": "Perder una maleta",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A083",
+      "text": "Aeropuerto",
+      "deck": "adulto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "A084",
+      "text": "Hotel",
+      "deck": "adulto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "A085",
+      "text": "Pasar por inmigración",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A086",
+      "text": "Perder el pasaporte",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A087",
+      "text": "Tomar un taxi",
+      "deck": "adulto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "A088",
+      "text": "Viaje por carretera",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A089",
+      "text": "Acampar",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null,
+      "duplicateOf": "I164"
+    },
+    {
+      "id": "A090",
+      "text": "Subir una montaña",
+      "deck": "adulto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "A091",
+      "text": "Crisis de los 40",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A092",
+      "text": "Querer volver a ser joven",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A093",
+      "text": "Deber dinero",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A094",
+      "text": "Fin de mes",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A095",
+      "text": "Cuenta inesperada",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A096",
+      "text": "No querer levantarse de la cama",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A097",
+      "text": "Reunión familiar incómoda",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A098",
+      "text": "Vecino molesto",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A099",
+      "text": "Olvidar dónde estacionaste",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "A100",
+      "text": "Decir “sí” cuando querías decir “no”",
+      "deck": "adulto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M001",
+      "text": "Alguien durmiendo",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M002",
+      "text": "Alguien corriendo",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M003",
+      "text": "Alguien bailando",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M004",
+      "text": "Alguien cocinando",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M005",
+      "text": "Alguien comiendo",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M006",
+      "text": "Alguien tomando agua",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M007",
+      "text": "Alguien llorando",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M008",
+      "text": "Alguien riendo",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M009",
+      "text": "Alguien gritando",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M010",
+      "text": "Alguien cantando",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M011",
+      "text": "Alguien saltando",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M012",
+      "text": "Alguien nadando",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M013",
+      "text": "Alguien pescando",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M014",
+      "text": "Alguien leyendo",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M015",
+      "text": "Alguien escribiendo",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M016",
+      "text": "Alguien cocinando una pizza",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M017",
+      "text": "Alguien paseando al perro",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M018",
+      "text": "Alguien andando en bicicleta",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M019",
+      "text": "Alguien jugando fútbol",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M020",
+      "text": "Alguien jugando videojuegos",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M021",
+      "text": "Cumpleaños",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null,
+      "duplicateOf": "I171"
+    },
+    {
+      "id": "M022",
+      "text": "Fiesta",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null,
+      "duplicateOf": "I173"
+    },
+    {
+      "id": "M023",
+      "text": "Vacaciones",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null,
+      "duplicateOf": "I174"
+    },
+    {
+      "id": "M024",
+      "text": "Día de playa",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M025",
+      "text": "Ir al colegio",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M026",
+      "text": "Ir de compras",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M027",
+      "text": "Cocinar en familia",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M028",
+      "text": "Ver televisión",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M029",
+      "text": "Foto familiar",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M030",
+      "text": "Viaje en auto",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M031",
+      "text": "Acampar",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null,
+      "duplicateOf": "I164"
+    },
+    {
+      "id": "M032",
+      "text": "Hacer un picnic",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M033",
+      "text": "Abrir un regalo",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null,
+      "duplicateOf": "I182"
+    },
+    {
+      "id": "M034",
+      "text": "Soplar las velas",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null,
+      "duplicateOf": "I183"
+    },
+    {
+      "id": "M035",
+      "text": "Jugar en el parque",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null,
+      "duplicateOf": "I185"
+    },
+    {
+      "id": "M036",
+      "text": "Ir al supermercado",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null,
+      "duplicateOf": "A012"
+    },
+    {
+      "id": "M037",
+      "text": "Perderse en una tienda",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M038",
+      "text": "Buscar las llaves",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M039",
+      "text": "Llegar tarde",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M040",
+      "text": "Esperar el bus",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M041",
+      "text": "Bailar como robot",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M042",
+      "text": "Caminar como pingüino",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M043",
+      "text": "Hablar por teléfono",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M044",
+      "text": "Dormirse en el sofá",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M045",
+      "text": "Comer demasiado",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M046",
+      "text": "Tener frío",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M047",
+      "text": "Tener calor",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M048",
+      "text": "Tener miedo",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M049",
+      "text": "Buscar algo perdido",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M050",
+      "text": "Abrir un paraguas",
+      "deck": "mixto",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "M051",
+      "text": "Caerse de una bicicleta",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M052",
+      "text": "Escapar de una abeja",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M053",
+      "text": "Ver una araña",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M054",
+      "text": "Encontrar dinero",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M055",
+      "text": "Ganar un premio",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M056",
+      "text": "Perder un partido",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M057",
+      "text": "Hacer trampa",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M058",
+      "text": "Llegar tarde al colegio",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M059",
+      "text": "Quedarse dormido en clase",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M060",
+      "text": "Romper algo accidentalmente",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M061",
+      "text": "Perro con lentes",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M062",
+      "text": "Gato cocinando",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M063",
+      "text": "Dinosaurio en bicicleta",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M064",
+      "text": "Mono comiendo banana",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M065",
+      "text": "Pingüino en la playa",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M066",
+      "text": "Tiburón en una piscina",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M067",
+      "text": "Elefante en una tienda",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M068",
+      "text": "Robot jugando fútbol",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M069",
+      "text": "Astronauta comiendo pizza",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M070",
+      "text": "Pirata buscando un tesoro",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M071",
+      "text": "Bombero apagando un incendio",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M072",
+      "text": "Cocinero haciendo una torta",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M073",
+      "text": "Niño atrapado en una caja",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M074",
+      "text": "Persona perseguida por un perro",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M075",
+      "text": "Persona cayendo al agua",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M076",
+      "text": "Atrapar una mariposa",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M077",
+      "text": "Persona con demasiados regalos",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M078",
+      "text": "Persona bajo una lluvia intensa",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M079",
+      "text": "Buscar señal de celular",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M080",
+      "text": "Teléfono sin batería",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M081",
+      "text": "Gato manejando un auto",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M082",
+      "text": "Perro siendo profesor",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M083",
+      "text": "Dinosaurio en el supermercado",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M084",
+      "text": "Vaca en un avión",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M085",
+      "text": "Pez andando en bicicleta",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M086",
+      "text": "Pollo jugando fútbol",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M087",
+      "text": "Robot cocinando",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M088",
+      "text": "Extraterrestre en la playa",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M089",
+      "text": "Pirata en el supermercado",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M090",
+      "text": "Astronauta paseando al perro",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M091",
+      "text": "Elefante usando un paraguas",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M092",
+      "text": "Pulpo tocando guitarra",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M093",
+      "text": "Mono tomando café",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M094",
+      "text": "Pingüino tomando sol",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M095",
+      "text": "Tiburón comiendo helado",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M096",
+      "text": "Jirafa jugando básquetbol",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "M097",
+      "text": "Caballo usando lentes",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M098",
+      "text": "Rana con corona",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M099",
+      "text": "Oso bailando",
+      "deck": "mixto",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "M100",
+      "text": "Cocodrilo en una fiesta",
+      "deck": "mixto",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "C001",
+      "text": "Completo",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C002",
+      "text": "Empanada",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C003",
+      "text": "Sopaipilla",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C004",
+      "text": "Sopaipilla pasada",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C005",
+      "text": "Pebre",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C006",
+      "text": "Mote con huesillos",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C007",
+      "text": "Once",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C008",
+      "text": "Asado",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C009",
+      "text": "Parrilla",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C010",
+      "text": "Pan amasado",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C011",
+      "text": "Marraqueta",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C012",
+      "text": "Hallulla",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C013",
+      "text": "Cazuela",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C014",
+      "text": "Pastel de choclo",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C015",
+      "text": "Humita",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C016",
+      "text": "Porotos",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C017",
+      "text": "Charquicán",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C018",
+      "text": "Paila marina",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C019",
+      "text": "Caldillo de congrio",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C020",
+      "text": "Churrasco italiano",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Vida cotidiana"
+    },
+    {
+      "id": "C021",
+      "text": "Fiestas Patrias",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C022",
+      "text": "Cueca",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C023",
+      "text": "Huaso",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C024",
+      "text": "Huasa",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C025",
+      "text": "Ramada",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C026",
+      "text": "Fonda",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C027",
+      "text": "Volantín",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C028",
+      "text": "Trompo",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C029",
+      "text": "Emboque",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C030",
+      "text": "Payas",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C031",
+      "text": "Rodeo",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C032",
+      "text": "Cueca con pañuelo",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C033",
+      "text": "Bandera de Chile",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C034",
+      "text": "Escarapela",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C035",
+      "text": "Desfile militar",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C036",
+      "text": "Asado familiar",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C037",
+      "text": "Baile de cueca",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C038",
+      "text": "Juegos típicos",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C039",
+      "text": "Fuegos artificiales",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C040",
+      "text": "Año Nuevo en Chile",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Fiestas y tradiciones"
+    },
+    {
+      "id": "C041",
+      "text": "Desierto de Atacama",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C042",
+      "text": "Valle de la Luna",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C043",
+      "text": "Cordillera de los Andes",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C044",
+      "text": "Océano Pacífico",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C045",
+      "text": "Isla de Pascua",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C046",
+      "text": "Moái",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C047",
+      "text": "Patagonia",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C048",
+      "text": "Torres del Paine",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C049",
+      "text": "Chiloé",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C050",
+      "text": "Volcán Osorno",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C051",
+      "text": "Lago Llanquihue",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C052",
+      "text": "Isla de Chiloé",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C053",
+      "text": "Archipiélago",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C054",
+      "text": "Glaciar",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C055",
+      "text": "Fiordo",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C056",
+      "text": "Valle Central",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C057",
+      "text": "Viña del Mar",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C058",
+      "text": "Santiago",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C059",
+      "text": "Valparaíso",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C060",
+      "text": "Puerto Montt",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Geografía chilena"
+    },
+    {
+      "id": "C061",
+      "text": "Micro",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C062",
+      "text": "Metro de Santiago",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C063",
+      "text": "Colectivo",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C064",
+      "text": "Transantiago / RED",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C065",
+      "text": "Paradero",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C066",
+      "text": "Feria libre",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C067",
+      "text": "Carabinero",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C068",
+      "text": "Bombero voluntario",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C069",
+      "text": "Kiosco",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C070",
+      "text": "Minimarket",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C071",
+      "text": "Junta de vecinos",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C072",
+      "text": "Escuela municipal",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C073",
+      "text": "Municipalidad",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C074",
+      "text": "Consultorio",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C075",
+      "text": "Registro Civil",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C076",
+      "text": "Mall",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C077",
+      "text": "Estadio",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C078",
+      "text": "Cancha de fútbol",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C079",
+      "text": "Playa chilena",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C080",
+      "text": "Feria artesanal",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Chile cotidiano"
+    },
+    {
+      "id": "C081",
+      "text": "Pololo",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C082",
+      "text": "Polola",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C083",
+      "text": "Guagua",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C084",
+      "text": "Cabro chico",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C085",
+      "text": "Al tiro",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C086",
+      "text": "Bacán",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C087",
+      "text": "Filo",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C088",
+      "text": "Pega",
+      "deck": "chile",
+      "difficulty": 2,
+      "points": 2,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C089",
+      "text": "Luca",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C090",
+      "text": "Plata",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C091",
+      "text": "Andar pato",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C092",
+      "text": "Estar achacado",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C093",
+      "text": "Tener caña",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C094",
+      "text": "Hacer una vaca",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C095",
+      "text": "Echar la talla",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C096",
+      "text": "Ser aperrado",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C097",
+      "text": "Quedar la escoba",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C098",
+      "text": "Once familiar",
+      "deck": "chile",
+      "difficulty": 1,
+      "points": 1,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C099",
+      "text": "Irse de carrete",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "C100",
+      "text": "Pasarlo chancho",
+      "deck": "chile",
+      "difficulty": 3,
+      "points": 3,
+      "category": "Expresiones y conceptos chilenos"
+    },
+    {
+      "id": "D001",
+      "text": "Dibujar con la mano contraria",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D002",
+      "text": "Dibujar sin levantar el lápiz",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D003",
+      "text": "Dibujar con los ojos cerrados",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D004",
+      "text": "Dibujar usando solo círculos",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D005",
+      "text": "Dibujar usando solo líneas rectas",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D006",
+      "text": "Dos personas dibujando juntas",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D007",
+      "text": "Dibujar en 20 segundos",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D008",
+      "text": "Dibujar con tres líneas",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D009",
+      "text": "Dibujar sin usar círculos",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D010",
+      "text": "Dibujar con una sola mano",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D011",
+      "text": "Primera cita desastrosa",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D012",
+      "text": "Reunión familiar incómoda",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null,
+      "duplicateOf": "A097"
+    },
+    {
+      "id": "D013",
+      "text": "Vecino espiando",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D014",
+      "text": "Perder las llaves",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D015",
+      "text": "Quedarse encerrado",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D016",
+      "text": "Perder el celular",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D017",
+      "text": "Romper el teléfono",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D018",
+      "text": "Llegar tarde a una boda",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D019",
+      "text": "Confundir una fecha",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D020",
+      "text": "Olvidar un aniversario",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D021",
+      "text": "Fingir que estás trabajando",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D022",
+      "text": "Fingir que escuchas",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D023",
+      "text": "No entender una explicación",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D024",
+      "text": "Intentar arreglar algo sin saber",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D025",
+      "text": "Leer las instrucciones al revés",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D026",
+      "text": "Buscar algo que tienes en la mano",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D027",
+      "text": "Abrir un regalo horrible",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D028",
+      "text": "Recibir una llamada equivocada",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D029",
+      "text": "Mandar un mensaje a la persona equivocada",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D030",
+      "text": "Quedarse sin batería durante un viaje",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D031",
+      "text": "Internet caído durante una reunión",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D032",
+      "text": "Computador congelado",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D033",
+      "text": "Impresora rebelde",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D034",
+      "text": "Contraseña olvidada",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null,
+      "duplicateOf": "A029"
+    },
+    {
+      "id": "D035",
+      "text": "Actualización del computador",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D036",
+      "text": "Hacer una videollamada accidental",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D037",
+      "text": "Hablar con el micrófono apagado",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D038",
+      "text": "Cámara encendida accidentalmente",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D039",
+      "text": "Reunión que podría haber sido un correo",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D040",
+      "text": "Trabajar mientras todos están de vacaciones",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D041",
+      "text": "Perder el vuelo",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D042",
+      "text": "Equipaje perdido",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D043",
+      "text": "Pasaporte olvidado",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D044",
+      "text": "Turista perdido",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D045",
+      "text": "Pedir indicaciones",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D046",
+      "text": "No entender el idioma",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D047",
+      "text": "Hotel sin reserva",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D048",
+      "text": "Dormir en el aeropuerto",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D049",
+      "text": "Viaje en bus interminable",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D050",
+      "text": "Tráfico interminable",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D051",
+      "text": "Estacionamiento imposible",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D052",
+      "text": "Buscar señal de celular",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null,
+      "duplicateOf": "M079"
+    },
+    {
+      "id": "D053",
+      "text": "Buscar Wi-Fi",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D054",
+      "text": "Cargar el teléfono",
+      "deck": "desafio",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "D055",
+      "text": "Quedarse sin efectivo",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D056",
+      "text": "Tarjeta rechazada",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D057",
+      "text": "Cuenta demasiado cara",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D058",
+      "text": "Fin de mes",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null,
+      "duplicateOf": "A094"
+    },
+    {
+      "id": "D059",
+      "text": "Comprar algo innecesario",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D060",
+      "text": "Oferta irresistible",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D061",
+      "text": "Comer demasiado",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null,
+      "duplicateOf": "M045"
+    },
+    {
+      "id": "D062",
+      "text": "No encontrar restaurante",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D063",
+      "text": "Quemar la comida",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D064",
+      "text": "Derramar café",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D065",
+      "text": "Derramar bebida",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D066",
+      "text": "Comer algo demasiado picante",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D067",
+      "text": "Encontrar un pelo en la comida",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D068",
+      "text": "Pedir comida equivocada",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D069",
+      "text": "Esperar demasiado por la comida",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D070",
+      "text": "Compartir la última porción",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D071",
+      "text": "Karaoke terrible",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D072",
+      "text": "Bailar sin ritmo",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D073",
+      "text": "Cantar desafinado",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D074",
+      "text": "Quedarse dormido viendo una película",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D075",
+      "text": "Spoilear una película",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D076",
+      "text": "Control remoto perdido",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D077",
+      "text": "Serie demasiado larga",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D078",
+      "text": "Maratón de películas",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D079",
+      "text": "Fanático de un equipo",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D080",
+      "text": "Celebrar un gol",
+      "deck": "desafio",
+      "difficulty": 1,
+      "points": 1,
+      "category": null
+    },
+    {
+      "id": "D081",
+      "text": "Perder una final",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D082",
+      "text": "Árbitro equivocado",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D083",
+      "text": "Jugador lesionado",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D084",
+      "text": "Entrenador enojado",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D085",
+      "text": "Hincha desesperado",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D086",
+      "text": "Mascota destruyendo la casa",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D087",
+      "text": "Perro persiguiendo una pelota",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D088",
+      "text": "Gato ignorando a su dueño",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D089",
+      "text": "Mascota robando comida",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D090",
+      "text": "Llevar una mascota al veterinario",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D091",
+      "text": "Dormir cinco minutos más",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D092",
+      "text": "Despertador ignorado",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D093",
+      "text": "No querer levantarse",
+      "deck": "desafio",
+      "difficulty": 2,
+      "points": 2,
+      "category": null
+    },
+    {
+      "id": "D094",
+      "text": "Buscar lentes que llevas puestos",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D095",
+      "text": "Buscar el celular mientras hablas por él",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D096",
+      "text": "Entrar a una habitación y olvidar por qué",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D097",
+      "text": "Abrir el refrigerador sin saber qué buscas",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D098",
+      "text": "Saludar a alguien que no te saludaba",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D099",
+      "text": "Reír en un momento inapropiado",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    },
+    {
+      "id": "D100",
+      "text": "Decir algo y arrepentirse inmediatamente",
+      "deck": "desafio",
+      "difficulty": 3,
+      "points": 3,
+      "category": null
+    }
+  ]
+}

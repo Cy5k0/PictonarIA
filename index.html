@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>pictonarIA — Pictionary presencial</title>
+  <meta name="description" content="pictonarIA: Pictionary presencial 100% estático. Reemplaza el mazo de tarjetas y el cronómetro; se juega en un solo dispositivo." />
+  <meta name="theme-color" content="#2f6fd6" />
+  <link rel="icon" href="icons/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icons/icon-192.svg" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <button class="brand" type="button" data-action="go-home" aria-label="Ir al inicio">
+        <span class="brand-text">pictonar<span class="brand-ia">IA</span></span>
+      </button>
+      <div class="header-actions">
+        <button class="btn btn-ghost" type="button" data-action="open-howto" aria-label="Cómo se juega">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="icon"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9.5 9a2.5 2.5 0 1 1 3.6 2.2c-.7.4-1.1.9-1.1 1.8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="17" r="1.1"/></svg>
+          <span class="sr-only">Cómo se juega</span>
+        </button>
+        <button class="btn btn-ghost" type="button" data-action="open-settings" aria-label="Ajustes">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="icon"><path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M19.4 13a7.6 7.6 0 0 0 .05-2l1.6-1.2-1.6-2.8-1.9.7a7.7 7.7 0 0 0-1.7-1L15.4 4h-3.2l-.4 2a7.7 7.7 0 0 0-1.8 1l-1.9-.7-1.6 2.8L7.1 11a7.6 7.6 0 0 0 0 2l-1.6 1.2 1.6 2.8 1.9-.7a7.7 7.7 0 0 0 1.8 1l.4 2h3.2l.4-2a7.7 7.7 0 0 0 1.7-1l1.9.7 1.6-2.8L19.4 13Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          <span class="sr-only">Ajustes</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <p id="loading" class="notice">Cargando tarjetas…</p>
+      <p id="load-error" class="notice notice-error" hidden></p>
+
+      <!-- INICIO -->
+      <section class="screen" data-screen="home" hidden>
+        <div class="hero">
+          <h1 class="hero-title">pictonar<span class="brand-ia">IA</span></h1>
+          <p class="hero-sub">Pictionary presencial: la app pone las tarjetas y el cronómetro; ustedes dibujan en papel.</p>
+        </div>
+        <nav class="menu">
+          <button class="btn btn-primary btn-lg" type="button" data-action="new-game">Nueva partida</button>
+          <button class="btn btn-secondary btn-lg" type="button" data-action="continue-game" hidden>Continuar partida</button>
+          <button class="btn btn-secondary btn-lg" type="button" data-action="open-howto">Cómo se juega</button>
+          <button class="btn btn-secondary btn-lg" type="button" data-action="open-settings">Ajustes</button>
+        </nav>
+        <p class="meta-line" id="deck-summary"></p>
+      </section>
+
+      <!-- CONFIGURACIÓN -->
+      <section class="screen" data-screen="config" hidden>
+        <h2 class="screen-title">Configurar partida</h2>
+        <form id="config-form" novalidate>
+          <fieldset class="card-panel">
+            <legend>Modalidad</legend>
+            <label class="field">
+              <span>Composición de equipos</span>
+              <select id="modality" name="modality"></select>
+            </label>
+            <p class="hint" id="modality-hint"></p>
+          </fieldset>
+
+          <fieldset class="card-panel">
+            <legend>Equipos</legend>
+            <div id="teams-editor" class="teams-editor"></div>
+            <div class="row-actions">
+              <button class="btn btn-secondary" type="button" data-action="add-team">Agregar equipo</button>
+              <button class="btn btn-secondary" type="button" data-action="remove-team">Quitar equipo</button>
+            </div>
+            <p class="hint">Marca "adulto + niño" para activar la regla Pareja Familiar (+10 s al niño y un cambio de tarjeta por partida).</p>
+          </fieldset>
+
+          <fieldset class="card-panel">
+            <legend>Mazos activos</legend>
+            <div id="decks-editor" class="decks-editor"></div>
+            <p class="hint" id="deck-count-hint"></p>
+          </fieldset>
+
+          <fieldset class="card-panel">
+            <legend>Dificultad y reglas</legend>
+            <div class="inline-fields">
+              <label class="check"><input type="checkbox" id="diff-1" value="1" checked /> <span>⭐ Fácil</span></label>
+              <label class="check"><input type="checkbox" id="diff-2" value="2" checked /> <span>⭐⭐ Media</span></label>
+              <label class="check"><input type="checkbox" id="diff-3" value="3" checked /> <span>⭐⭐⭐ Difícil</span></label>
+            </div>
+            <label class="field">
+              <span>Tiempo por turno</span>
+              <select id="turn-seconds">
+                <option value="30">30 segundos</option>
+                <option value="45">45 segundos</option>
+                <option value="60" selected>60 segundos</option>
+                <option value="90">90 segundos</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Número de rondas</span>
+              <select id="rounds">
+                <option value="10" selected>10 rondas</option>
+                <option value="20">20 rondas</option>
+                <option value="30">30 rondas</option>
+              </select>
+            </label>
+            <label class="check"><input type="checkbox" id="include-duplicates" /> <span>Incluir tarjetas repetidas</span></label>
+            <label class="check"><input type="checkbox" id="chile-family" /> <span>Modo Chile familiar (excluir «Expresiones y conceptos chilenos»)</span></label>
+            <label class="check"><input type="checkbox" id="party-mode" /> <span>Modo Fiesta: «Dibujo imposible» (restricción al azar)</span></label>
+          </fieldset>
+
+          <div class="sticky-actions">
+            <button class="btn btn-ghost" type="button" data-action="go-home">Volver</button>
+            <button class="btn btn-primary btn-lg" type="submit">Comenzar partida</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- TURNO -->
+      <section class="screen" data-screen="play" hidden>
+        <div class="play-head">
+          <div>
+            <p class="play-team" id="play-team"></p>
+            <p class="play-drawer" id="play-drawer"></p>
+          </div>
+          <p class="play-round" id="play-round"></p>
+        </div>
+
+        <details class="scoreboard" id="scoreboard" open>
+          <summary>Marcador</summary>
+          <ul id="scoreboard-list" class="scoreboard-list"></ul>
+        </details>
+
+        <div class="card-zone">
+          <div class="card-back" id="card-back">
+            <p class="card-back-title">PICTIONARY</p>
+            <p class="card-back-help">Pásale el dispositivo solo al dibujante y pulsa <strong>Ver tarjeta</strong>.</p>
+            <p class="rules-reminder">No hablar, no escribir letras ni números. ¡Solo dibujar!</p>
+            <button class="btn btn-primary btn-lg" type="button" data-action="reveal">Ver tarjeta</button>
+          </div>
+
+          <article class="pcard" id="pcard" hidden aria-live="polite">
+            <header class="pcard-head">
+              <span class="pcard-brand">PICTIONARY</span>
+              <button class="btn btn-ghost btn-small" type="button" data-action="hide-card">Ocultar</button>
+            </header>
+            <p class="pcard-text" id="pcard-text"></p>
+            <p class="pcard-deck" id="pcard-deck"></p>
+            <p class="pcard-difficulty" id="pcard-difficulty"></p>
+            <p class="pcard-points" id="pcard-points"></p>
+            <p class="pcard-restriction" id="pcard-restriction" hidden></p>
+          </article>
+        </div>
+
+        <div class="timer-zone">
+          <div class="timer-row">
+            <span class="timer-value" id="timer-value" role="timer" aria-live="polite">1:00</span>
+            <span class="timer-bonus" id="timer-bonus" hidden>+10 s</span>
+          </div>
+          <div class="progress" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>
+          <div class="row-actions center">
+            <button class="btn btn-primary" type="button" data-action="toggle-timer" id="toggle-timer-btn">Iniciar</button>
+            <button class="btn btn-secondary" type="button" data-action="skip">Saltar tarjeta</button>
+            <button class="btn btn-secondary" type="button" data-action="swap" id="swap-btn" hidden>Cambiar tarjeta (1 disponible)</button>
+          </div>
+        </div>
+
+        <div class="judge-actions">
+          <button class="btn btn-success btn-lg" type="button" data-action="hit">¡Acertaron!</button>
+          <button class="btn btn-danger btn-lg" type="button" data-action="miss">No acertaron</button>
+        </div>
+      </section>
+
+      <!-- RESULTADOS -->
+      <section class="screen" data-screen="results" hidden>
+        <h2 class="screen-title" id="results-title">Resultados</h2>
+        <p class="results-sub" id="results-sub"></p>
+        <ol class="results-list" id="results-list"></ol>
+        <div class="sticky-actions">
+          <button class="btn btn-secondary btn-lg" type="button" data-action="rematch">Revancha</button>
+          <button class="btn btn-primary btn-lg" type="button" data-action="new-game">Nueva partida</button>
+        </div>
+      </section>
+
+      <!-- CÓMO SE JUEGA -->
+      <section class="screen" data-screen="howto" hidden>
+        <h2 class="screen-title">Cómo se juega</h2>
+        <div class="prose">
+          <p>Un jugador dibuja y su equipo adivina. El dibujo se hace en papel o pizarra, no en la app.</p>
+          <ul>
+            <li>Turno de <strong>60 segundos</strong> (configurable: 30 / 45 / 60 / 90).</li>
+            <li>El dibujante <strong>no puede hablar</strong> ni escribir letras, palabras o números. Sí puede usar símbolos.</li>
+            <li>Puntos por tarjeta acertada: <strong>1 / 2 / 3</strong> según la dificultad.</li>
+          </ul>
+          <h3>Pareja Familiar (adulto + niño)</h3>
+          <ul>
+            <li>Si el niño dibuja, el turno recibe <strong>+10 segundos</strong>.</li>
+            <li>El niño puede <strong>cambiar una tarjeta por partida</strong> que no conozca.</li>
+          </ul>
+          <h3>Modo Fiesta: «Dibujo imposible»</h3>
+          <p>La app sortea una restricción: mano contraria, sin levantar el lápiz, ojos cerrados o dibujo compartido. Las tarjetas del mazo Desafío ya traen su restricción y no reciben otra.</p>
+          <h3>Modo campeonato</h3>
+          <p>La partida dura 10, 20 o 30 rondas. Gana el equipo con más puntos. Si el mazo filtrado se agota, la app avisa para reiniciar las tarjetas usadas o ampliar los filtros.</p>
+        </div>
+        <div class="sticky-actions">
+          <button class="btn btn-primary btn-lg" type="button" data-action="go-home">Entendido</button>
+        </div>
+      </section>
+
+      <!-- AJUSTES -->
+      <section class="screen" data-screen="settings" hidden>
+        <h2 class="screen-title">Ajustes</h2>
+        <form id="settings-form">
+          <label class="field">
+            <span>Tiempo por defecto</span>
+            <select id="setting-time">
+              <option value="30">30 segundos</option>
+              <option value="45">45 segundos</option>
+              <option value="60">60 segundos</option>
+              <option value="90">90 segundos</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Tema</span>
+            <select id="setting-theme">
+              <option value="auto">Automático (sistema)</option>
+              <option value="light">Claro</option>
+              <option value="dark">Oscuro</option>
+            </select>
+          </label>
+          <label class="check"><input type="checkbox" id="setting-sound" /> <span>Sonido al terminar el tiempo</span></label>
+          <label class="check"><input type="checkbox" id="setting-vibration" /> <span>Vibración al terminar el tiempo</span></label>
+          <label class="check"><input type="checkbox" id="setting-duplicates" /> <span>Incluir tarjetas repetidas por defecto</span></label>
+          <div class="card-panel">
+            <p class="hint">Las tarjetas ya usadas no se repiten hasta agotar el mazo filtrado.</p>
+            <button class="btn btn-danger" type="button" data-action="reset-used">Reiniciar tarjetas usadas</button>
+            <p class="hint" id="used-count"></p>
+          </div>
+          <div class="sticky-actions">
+            <button class="btn btn-primary btn-lg" type="button" data-action="go-home">Listo</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "pictonaria",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "pictonarIA — Pictionary presencial 100% estático (sin dependencias).",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "build:cards": "python3 scripts/build_cards.py",
+    "serve": "python3 -m http.server 8080"
+  }
+}
